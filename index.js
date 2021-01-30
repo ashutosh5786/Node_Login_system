@@ -5,6 +5,7 @@ const dotenv = require('dotenv').config();
 
 // importing Routes from
 const authRoute = require('./routes/auth');
+const postRoute = require('./routes/post');
 
 //connect to DB
 try{
@@ -20,6 +21,7 @@ app.use(express.json());
 
 // Routes MiddleWare
 app.use('/api/user', authRoute);
+app.use('/api/posts', postRoute);
 
 
 
