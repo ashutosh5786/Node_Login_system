@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "d:/node_login_system/validation.registerValidatation (nodejs10.x)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "\\node_login_system",
+                "lambdaHandler": "d:/node_login_system/validation.registerValidatation"
+            },
+            "lambda": {
+                "runtime": "nodejs10.x",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        }
+    ]
+}
