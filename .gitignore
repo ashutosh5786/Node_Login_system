@@ -1,0 +1,5 @@
+# Node Modules will be ignore
+node_modules
+
+#.ENV files will be ignore
+.env
